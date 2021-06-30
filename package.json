@@ -1,6 +1,6 @@
 {
   "name": "neo-n3-dapi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NEO N3 dAPI - NEP17",
   "main": "./lib/neo-n3-dapi.min.js",
   "types": "./lib/index.d.ts",
