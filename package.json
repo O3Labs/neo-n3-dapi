@@ -1,8 +1,8 @@
 {
-  "name": "neo-n3-dapi",
-  "version": "1.0.1",
+  "name": "neo3-dapi",
+  "version": "1.0.0",
   "description": "NEO N3 dAPI - NEP17",
-  "main": "./lib/neo-n3-dapi.min.js",
+  "main": "./lib/neo3-dapi.min.js",
   "types": "./lib/index.d.ts",
   "scripts": {
     "start": "webpack --mode development --watch",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/O3Labs/neo-n3-dapi.git"
+    "url": "git+https://github.com/O3Labs/neo3-dapi.git"
   },
-  "author": "Amy",
+  "author": "o3.network",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/O3Labs/neo-n3-dapi/issues"
+    "url": "https://github.com/O3Labs/neo3-dapi/issues"
   },
-  "homepage": "https://github.com/O3Labs/neo-n3-dapi",
+  "homepage": "https://github.com/O3Labs/neo3-dapi",
   "devDependencies": {
     "ts-loader": "5.2.2",
     "tslint": "5.11.0",
@@ -35,6 +35,6 @@
   ],
   "dependencies": {
     "o3-dapi-core": "^0.3.13",
-    "o3-dapi-neo-n3": "^1.0.1"
+    "o3-dapi-neo3": "1.0.4"
   }
 }

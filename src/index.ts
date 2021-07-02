@@ -1,7 +1,7 @@
 import o3dapi from 'o3-dapi-core';
-import o3dapiNeoN3 from 'o3-dapi-neo-n3';
+import o3dapiNeo3 from 'o3-dapi-neo3';
 
-o3dapi.initPlugins([o3dapiNeoN3]);
+o3dapi.initPlugins([o3dapiNeo3]);
 
 const {
   utils,
